@@ -7,5 +7,16 @@
         "TODO",
         "XXX",
         "DONE"
+    ],
+    "liveSassCompile.settings.formats": [
+        // This is Default.
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        },
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "assets/style/style.scss",
     ]
 }
