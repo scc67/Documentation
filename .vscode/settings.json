@@ -18,6 +18,5 @@
     ],
     "liveSassCompile.settings.includeItems": [
         "assets/style/style.scss",
-    ],
-    "git.postCommitCommand": "push"
+    ]
 }
