@@ -20,5 +20,6 @@
         "assets/style/style.scss",
     ],
     "git.postCommitCommand": "push",
-    "git.showPushSuccessNotification": true
+    "git.showPushSuccessNotification": true,
+    "liveServer.settings.port": 5501
 }

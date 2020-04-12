@@ -1,0 +1,18 @@
+.navbar {
+    position: fixed;
+    background-color: tomato;
+    padding: 2rem;
+    height: 100%;
+
+    @include atMedium {
+        width: 20%;
+    }
+
+    &__items {
+        display: flex;
+
+        @include atMedium {
+            flex-direction: column;
+        }
+    }
+}

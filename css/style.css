@@ -1,10 +1,50 @@
-.navbar--no-padding-until-large {
-  padding: 0rem 1rem;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-@media (min-width: 992px) {
-  .navbar--no-padding-until-large {
-    padding: 1rem 1rem;
+html {
+  font-size: 10px;
+  scroll-padding-top: 9rem;
+}
+
+body {
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+  background-color: tomato;
+  padding: 2rem;
+  height: 100%;
+}
+
+@media (min-width: 769px) {
+  .navbar {
+    width: 20%;
   }
+}
+
+.navbar__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 769px) {
+  .navbar__items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main-doc {
+  background-color: orange;
+  padding: 2rem;
+  margin-left: 20%;
 }
 /*# sourceMappingURL=style.css.map */
